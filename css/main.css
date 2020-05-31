@@ -1459,6 +1459,8 @@ NOSSO TIME
           background-image: url("../images/assets/mauricio-photo.png"); }
         #nossoTime .profile a .photo#photoSabrina {
           background-image: url("../images/assets/sabrina-photo.png"); }
+          #nossoTime .profile a .photo#photoCarlos {
+            background-image: url("../images/assets/carlos-photo.png"); }
       #nossoTime .profile a p {
         color: #2C2A28;
         margin-top: 1rem;
