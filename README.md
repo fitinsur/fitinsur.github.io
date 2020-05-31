@@ -1,1 +1,2 @@
-# fitinsur_web_html
+# fitinsur Open Insurance - 2020
+# fitinsur.github.io
