@@ -1512,3 +1512,49 @@ NOSSO TIME
       color: #646261; }
     #nossoTime .mark-highlight#wefitCV:hover .highlight {
       background: #e0e0e0; }
+
+
+/* Nav languages */
+.header-container {
+  position: relative;
+}
+
+.fitinsur-languages {
+  position: absolute;
+  top: 5px;
+  right: 15px;
+}
+
+.fitinsur-languages__nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.fitinsur-languages__item:not(:last-child) {
+  margin-right: 25px;
+}
+
+.fitinsur-languages__link {
+  font-size: 0.813rem;
+  opacity: .7;
+}
+
+.fitinsur-languages__link:hover {
+  opacity: 1;
+  color: black;
+  background: white;
+}
+
+@media(min-width: 768px) {
+  .fitinsur-languages {
+    position: absolute;
+    top: -31px;
+    right: 35px;
+  }
+
+  .fitinsur-languages__link {
+    font-size: 0.875rem;
+  }
+}
